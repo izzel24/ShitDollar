@@ -15,7 +15,7 @@ body {
   }
   header h1 {
     margin: 0;
-    color: #ff4c4c;
+    color: #3dd845;
   }
   nav {
     display: flex;
@@ -36,17 +36,17 @@ body {
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    background: linear-gradient(135deg, #ff4c4c 0%, #fcb045 100%);
+    background: linear-gradient(135deg, #5f8d11 0%, #08854c 100%);;
     color: #121212;
     text-align: center;
   }
   .section {
-    height: 100vh;
+    min-height: 100vh;
   }
   .section h2 {
     font-size: 2.5rem;
   margin-bottom: 40px;
-  color: #ff4c4c;
+  color: #3dd845;
   text-transform: uppercase;
   letter-spacing: 2px;
   }
@@ -79,7 +79,7 @@ body {
   padding: 20px 20px 20px 60px;
   margin-bottom: 30px;
   background: #222;
-  border-left: 4px solid #ff4c4c;
+  border-left: 4px solid #3dd845;
   border-radius: 8px;
   text-align: left;
   font-size: 1.2rem;
@@ -92,11 +92,11 @@ body {
   left: 20px;
   width: 12px;
   height: 12px;
-  background: #ff4c4c;
+  background: #3dd845;
   border-radius: 50%;
 }
 #link:hover{
-  color: #ff4c4c;
+  color: #3dd845;
   transition: all ease-in 100ms;
 }
 
@@ -122,13 +122,9 @@ body {
 }
 
 #tokenomics ul{
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-#tokenomics li {
   font-size: 1.2rem;
 }
+
 
 #community{
   display: flex;
@@ -143,6 +139,12 @@ body {
   max-width: 800px;
   text-align: center;
 
+}
+#about h2{
+  color: #3dd845;
+}
+#roadmap h2{
+  color: #3dd845;
 }
 
 @media only screen and (width < 800px) {
